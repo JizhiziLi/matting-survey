@@ -28,7 +28,7 @@ Image matting refers to extracting precise alpha matte from natural images, and 
 
 ## Preliminary
 
-Image matting, which refers to the precise extraction of the soft matte from foreground objects in arbitrary images, has been extensively studied for several decades. The process can be described mathematically as below, where *I* represents the input image, *F* represents the foreground image, and *B* represents the background image. The opacity of the pixel in the foreground  is denoted by *α<sub>i</sub>*, which ranges from 0 to 1. We also show the typical input image, ground truth alpha matte and various auxiliary inputs such as trimap, background, coarse map, user clicks, scribbles, and a text description in the following figure. The text description for this image can be *the cute smiling brown dog in the middle of the image*.
+Image matting, which refers to the precise extraction of the soft matte from foreground objects in arbitrary images, has been extensively studied for several decades. The process can be described mathematically as below, where *I* represents the input image, *F* represents the foreground image, and *B* represents the background image. The opacity of the pixel in the foreground is denoted by *α<sub>i</sub>*, which ranges from 0 to 1. We also show the typical input image, ground truth alpha matte and various auxiliary inputs such as trimap, background, coarse map, user clicks, scribbles, and a text description in the following figure. The text description for this image can be *the cute smiling brown dog in the middle of the image*.
 
 <img src='src/equation.png' width='400px'>
 
@@ -41,7 +41,7 @@ We compile a timeline of the developments in deep learning-based image matting m
 ![](src/timeline.jpg)
 
 
-We also list a summary of image matting methods organized according to the year of publication, the publication venue, input modality, automaticity, matting target, architecture, availability of the code (with the link). Please note that the list of papers is chronologically ordered.
+We also list a summary of image matting methods organized according to the year of publication, the publication venue, input modality, automaticity, matting target, architecture, and availability of the code (with the link). The list of papers is chronologically ordered. Please note that *[U]* stands for the unofficial implementation of the code.
 
 
 <table>
@@ -217,7 +217,7 @@ We also list a summary of image matting methods organized according to the year 
             <td><a href="https://github.com/senguptaumd/Background-Matting">Github<img src="https://img.shields.io/github/stars/senguptaumd/Background-Matting.svg?logo=github&label=Stars"></a></td>
         </tr>
         <tr>
-            <td><a href="https://arxiv.org/abs/2004.03249">Hierarchical opacity propa- gation for image matting (HOP)</a></td>
+            <td><a href="https://arxiv.org/abs/2004.03249">Hierarchical opacity propagation for image matting (HOP)</a></td>
             <td>arXiv</td>
             <td>RGB-Trimap</td>
             <td>&cross;</td>
@@ -511,7 +511,7 @@ We also list a summary of image matting methods organized according to the year 
 
 ## Image Matting Datasets
 
-We list a summary image matting datasets, categorized as the synthetic image-based benchmark, natural image-based benchmark, and test sets. The datasets are ordered based on their release date and are described in terms of publication venue, naturalness, matting target, resolution, number of training and test samples, and availability (along with their links). It should be noted that the size of the datasets is calculated based on the number of distinguished foregrounds, except for TOM and RefMatte, which have pre-defined composite rules.
+We list a summary of the image matting datasets, categorized as the synthetic image-based benchmark, natural image-based benchmark, and test sets. The datasets are ordered based on their release date and are described in terms of publication venue, naturalness, matting target, resolution, number of training and test samples, and availability (along with their links). It should be noted that the size of the datasets is calculated based on the number of distinguished foregrounds, except for TOM and RefMatte, which have pre-defined composite rules.
 
 |Name|Pub.|Natural|Target|Resolution|#Train|#Test|Publicity|
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
