@@ -1,8 +1,8 @@
 <h1 align="center">Deep Image Matting: A Comprehensive Survey</h1>
 
 <p align="center">
-<a href=""><img  src="https://img.shields.io/badge/arxiv-Paper-brightgreen" ></a>
-<a href=""><img  src="https://shields.io/badge/-survey-yellow"></a>
+<a href="https://arxiv.org/abs/2304.04672"><img  src="https://img.shields.io/badge/arxiv-Paper-brightgreen" ></a>
+<a href="https://arxiv.org/pdf/2304.04672.pdf"><img  src="https://shields.io/badge/-survey-yellow"></a>
 <a href=""><img  src="https://img.shields.io/badge/license-MIT-blue"></a>
 </p>
 
@@ -554,7 +554,8 @@ If you are interested in our work, please consider citing the following:
   title={Deep Image Matting: A Comprehensive Survey},
   author={Jizhizi Li and Jing Zhang and Dacheng Tao},
   journal={ArXiv},
-  year={2023}
+  year={2023},
+  volume={abs/2304.04672}
 }
 ```
 
