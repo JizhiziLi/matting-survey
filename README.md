@@ -3,11 +3,11 @@
 <p align="center">
 <a href="https://arxiv.org/abs/2304.04672"><img  src="https://img.shields.io/badge/arxiv-Paper-brightgreen" ></a>
 <a href="https://arxiv.org/pdf/2304.04672.pdf"><img  src="https://shields.io/badge/-survey-yellow"></a>
-<a href=""><img  src="https://img.shields.io/badge/license-MIT-blue"></a>
+<a href="https://opensource.org/license/mit/"><img  src="https://img.shields.io/badge/license-MIT-blue"></a>
 </p>
 
 
-<h4 align="center">This is the official repository of the paper <a href="">Deep Image Matting: A Comprehensive Survey</a>.</h4>
+<h4 align="center">This is the official repository of the paper <a href="https://arxiv.org/abs/2304.04672">Deep Image Matting: A Comprehensive Survey</a>.</h4>
 <h5 align="center"><em>Jizhizi Li, Jing Zhang, and Dacheng Tao<sup>1</sup></em></h5>
 <h6 align="center">1 The University of Sydney, Sydney, Australia</h6>
 
@@ -102,7 +102,7 @@ We also list a summary of image matting methods organized according to the year 
             <td>CVPR</td>
             <td>RGB</td>
             <td>&check;</td>
-            <td>transparent<a href="https://guanyingc.github.io/TOM-Net/"><img src="https://shields.io/badge/-dataset-orange"></td>
+            <td>trans.<a href="https://guanyingc.github.io/TOM-Net/"><img src="https://shields.io/badge/-dataset-orange"></td>
             <td>Sequential two-step CNN+Refine</td>
             <td><a href="https://github.com/guanyingc/TOM-Net">Github<img src="https://img.shields.io/github/stars/guanyingc/TOM-Net.svg?logo=github&label=Stars"></a></td>
         </tr>
@@ -210,7 +210,7 @@ We also list a summary of image matting methods organized according to the year 
         <tr>
             <td><a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Sengupta_Background_Matting_The_World_Is_Your_Green_Screen_CVPR_2020_paper.html">Background matting: The world is your green screen (BM)</a></td>
             <td>CVPR</td>
-            <td>RGB-Background</td>
+            <td>RGB-Bg</td>
             <td>&cross;</td>
             <td>human</td>
             <td>Parallel four-stream CNN</td>
@@ -266,7 +266,7 @@ We also list a summary of image matting methods organized according to the year 
             <td>IJCV</td>
             <td>RGB</td>
             <td>&check;</td>
-            <td>human, animal<a href="https://github.com/JizhiziLi/gfm"><img src="https://shields.io/badge/-dataset-orange"></td>
+            <td>human, animal<a href="https://github.com/JizhiziLi/gfm#am-2k"><img src="https://shields.io/badge/-dataset-orange"></td>
             <td>Parallel two-stream CNN</td>
             <td><a href="https://github.com/JizhiziLi/gfm">Github<img src="https://img.shields.io/github/stars/JizhiziLi/gfm.svg?logo=github&label=Stars"></a></td>
         </tr>
@@ -318,7 +318,7 @@ We also list a summary of image matting methods organized according to the year 
         <tr>
             <td><a href="https://openaccess.thecvf.com/content/CVPR2021/html/Lin_Real-Time_High-Resolution_Background_Matting_CVPR_2021_paper.html">Real-Time High-Resolution Background Matting (BMV2)</a></td>
             <td>CVPR</td>
-            <td>RGB-Background</td>
+            <td>RGB-Bg</td>
             <td>&cross;</td>
             <td>human<a href="https://grail.cs.washington.edu/projects/background-matting-v2/#/datasets"><img src="https://shields.io/badge/-dataset-orange"></td>
             <td>One-stage CNN+refine</td>
@@ -348,7 +348,7 @@ We also list a summary of image matting methods organized according to the year 
             <td>MM</td>
             <td>RGB</td>
             <td>&check;</td>
-            <td>human<a href="https://github.com/JizhiziLi/P3M"><img src="https://shields.io/badge/-dataset-orange"></td>
+            <td>human<a href="https://github.com/JizhiziLi/P3M#ppt-setting-and-p3m-10k-dataset"><img src="https://shields.io/badge/-dataset-orange"></td>
             <td>Parallel two-stream CNN</td>
             <td><a href="https://github.com/jizhiziLi/p3m">Github<img src="https://img.shields.io/github/stars/jizhiziLi/p3m.svg?logo=github&label=Stars"></a></td>
         </tr>
@@ -366,7 +366,7 @@ We also list a summary of image matting methods organized according to the year 
             <td>IJCAI</td>
             <td>RGB</td>
             <td>&check;</td>
-            <td>object<a href="https://github.com/JizhiziLi/aim"><img src="https://shields.io/badge/-dataset-orange"></td>
+            <td>object<a href="https://github.com/JizhiziLi/aim#aim-500"><img src="https://shields.io/badge/-dataset-orange"></td>
             <td>Parallel two-stream CNN</td>
             <td><a href="https://github.com/JizhiziLi/aim">Github<img src="https://img.shields.io/github/stars/JizhiziLi/aim.svg?logo=github&label=Stars"></a></td>
         </tr>
@@ -457,7 +457,7 @@ We also list a summary of image matting methods organized according to the year 
             <td>IJCV</td>
             <td>RGB</td>
             <td>&check;</td>
-            <td>human<a href="https://github.com/ViTAE-Transformer/P3M-Net"><img src="https://shields.io/badge/-dataset-orange"></td>
+            <td>human<a href="https://github.com/ViTAE-Transformer/P3M-Net#ppt-setting-and-p3m-10k-dataset"><img src="https://shields.io/badge/-dataset-orange"></td>
             <td>Parallel two stream CNN/Transformer</td>
             <td><a href="https://github.com/ViTAE-Transformer/P3M-Net">Github<img src="https://img.shields.io/github/stars/ViTAE-Transformer/P3M-Net.svg?logo=github&label=Stars"></a></td>
         </tr>
@@ -493,7 +493,7 @@ We also list a summary of image matting methods organized according to the year 
             <td>CVPR</td>
             <td>RGB-Language</td>
             <td>&cross;</td>
-            <td>object<a href="https://github.com/JizhiziLi/RIM"><img src="https://shields.io/badge/-dataset-orange"></td>
+            <td>object<a href="https://github.com/JizhiziLi/RIM#refmatte"><img src="https://shields.io/badge/-dataset-orange"></td>
             <td>One-stage CNN</td>
             <td><a href="http://github.com/jizhiziLi/rim">Github<img src="https://img.shields.io/github/stars/JizhiziLi/rim.svg?logo=github&label=Stars"></a></td>
         </tr>
@@ -502,7 +502,7 @@ We also list a summary of image matting methods organized according to the year 
             <td>ECCV</td>
             <td>RGB-Trimap</td>
             <td>&cross;</td>
-            <td>transparent<a href="https://github.com/AceCHQ/TransMatting"><img src="https://shields.io/badge/-dataset-orange"></td>
+            <td>trans.<a href="https://github.com/AceCHQ/TransMatting"><img src="https://shields.io/badge/-dataset-orange"></td>
             <td>One-stage CNN/Transformer</td>
             <td><a href="https://github.com/AceCHQ/TransMatting">Github<img src="https://img.shields.io/github/stars/AceCHQ/TransMatting.svg?logo=github&label=Stars"></a></td>
         </tr>               
@@ -563,6 +563,9 @@ This project is under the MIT license. For further questions, please contact <st
 
 
 ## Relevant Projects
+
+<a href="https://github.com/ViTAE-Transformer/ViTAE-Transformer-Matting"><img  src="https://shields.io/badge/-A_list_of_our_works_in_matting-9cf?style=for-the-badge"></a>
+</p>
 
 [1] <strong>Deep Automatic Natural Image Matting, IJCAI, 2021</strong> | [Paper](https://www.ijcai.org/proceedings/2021/0111.pdf) | [Github](https://github.com/JizhiziLi/AIM)
 <br><em>&ensp; &ensp; &ensp;Jizhizi Li, Jing Zhang, and Dacheng Tao</em>
