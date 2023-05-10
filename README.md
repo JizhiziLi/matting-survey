@@ -532,7 +532,7 @@ We list a summary of the image matting datasets, categorized as the synthetic im
 |[P3M-10k](https://dl.acm.org/doi/10.1145/3474085.3475512)|MM'21|&check;|human|1349×1321|9421|1000|[Link](https://github.com/JizhiziLi/P3M)|
 |[AM-2k](https://link.springer.com/article/10.1007/s11263-021-01541-0)|IJCV'22|&check;|animal|1471×1195|1800|200|[Link](https://github.com/jizhiziLi/gfm)|
 |[Multi-Object-1k](https://dl.acm.org/doi/10.1145/3503161.3548036)|MM'22|&check;|human-object|-|1000|200|-|
-|[UGD-12k](https://ieeexplore.ieee.org/document/9714230/)|TIP'22|&check;|human|356×317|12066|700|-|
+|[UGD-12k](https://ieeexplore.ieee.org/document/9714230/)|TIP'22|&check;|human|356×317|12066|700|[Link](https://github.com/fornorp/Interactive-Human-Matting/)|
 |[PhotoMatte85](https://openaccess.thecvf.com/content/CVPR2021/html/Lin_Real-Time_High-Resolution_Background_Matting_CVPR_2021_paper.html)|CVPR'20|&cross;|human|2304×3456|-|85|[Link](https://grail.cs.washington.edu/projects/background-matting-v2/#/datasets)|
 |[AIM-500](https://www.ijcai.org/proceedings/2021/111)|IJCAI'21|&check;|object|1397×1260|-|500|[Link](https://github.com/jizhiziLi/aim)|
 |[RWP-636](https://openaccess.thecvf.com/content/CVPR2021/html/Yu_Mask_Guided_Matting_via_Progressive_Refinement_Network_CVPR_2021_paper.html)|CVPR'21|&check;|human|1038×1327|-|636|[Link](https://github.com/yucornetto/MGMatting)|
