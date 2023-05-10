@@ -485,7 +485,7 @@ We also list a summary of image matting methods organized according to the year 
             <td>RGB-Trimap</td>
             <td>&cross;</td>
             <td>object</td>
-            <td>One-stage CNN</td>
+            <td>One-stage CNN/Transformer</td>
             <td><a href="https://github.com/webtoon/matteformer">Github<img src="https://img.shields.io/github/stars/webtoon/matteformer.svg?logo=github&label=Stars"></a></td>
         </tr>
         <tr>
